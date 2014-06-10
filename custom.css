@@ -17,6 +17,8 @@ ul {
 
 li {
   display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 a:link {
@@ -36,5 +38,9 @@ a:active {
 }
 
 .container {
-  margin-top: 300px;
+  margin-top: 250px;
+}
+
+.links {
+  margin-top: 40px;
 }
