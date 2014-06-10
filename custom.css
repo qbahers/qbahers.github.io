@@ -4,12 +4,28 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 36pt;
+  font-size: 30pt;
   color: white;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 ul {
   list-style-type: none;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: white;
 }
