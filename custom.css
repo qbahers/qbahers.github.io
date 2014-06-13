@@ -8,7 +8,7 @@ h1 {
   color: white;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  opacity: 0.6;
+  opacity: 0.5;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
@@ -39,13 +39,13 @@ li {
 a:link {
   color: white;
   text-decoration: none;
-  opacity: 0.6;
+  opacity: 0.5;
 }
 
 a:visited {
   color: white;
   text-decoration: none;
-  opacity: 0.6;
+  opacity: 0.5;
 }
 
 a:hover {
@@ -66,10 +66,10 @@ a:active {
 
 .centered {
   height: 240px;
-  width: 600px;
+  width: 700px;
   position:fixed;
   top: 50%;
   left: 50%;
   margin-top: -120px;
-  margin-left: -300px;
+  margin-left: -350px;
 }
