@@ -80,4 +80,6 @@ a:active {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
+  padding-left: 20px;
+  padding-right: 20px;
 }
