@@ -11,7 +11,7 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 2.2em;
+  font-size: 2.3em;
   color: white;
   opacity: 0.9;
   font-family: 'Open Sans', sans-serif;
@@ -22,7 +22,7 @@ h1 {
 
 h2 {
   text-align: center;
-  font-size: 1.1em;
+  font-size: 1.2em;
   color: white;
   opacity: 0.6;
   font-family: 'Open Sans', sans-serif;
@@ -71,6 +71,7 @@ a:active {
 
 .links {
   margin-top: 55px;
+  font-size: 0.9em;
 }
 
 .wrapper {
