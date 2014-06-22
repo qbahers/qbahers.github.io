@@ -6,13 +6,14 @@ body {
   background-color: #2F3045;
   height: 100%;
   margin: 0;
+  font-size: 16pt;
 }
 
 h1 {
   text-align: center;
   font-size: 38pt;
   color: white;
-  opacity: 0.8;
+  opacity: 0.9;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
@@ -84,4 +85,23 @@ a:active {
   vertical-align: middle;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+@media (max-width: 768px) {
+
+  body {
+    font-size: 13pt;
+  }
+
+  h1 {
+    font-size: 34pt;
+  }
+
+  h2 {
+    font-size: 16pt;
+  }
+
+  li {
+    padding-right: 0;
+  }
 }
