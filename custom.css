@@ -6,12 +6,12 @@ body {
   background-color: #2F3045;
   height: 100%;
   margin: 0;
-  font-size: 16pt;
+  font-size: 18pt;
 }
 
 h1 {
   text-align: center;
-  font-size: 38pt;
+  font-size: 2.2em;
   color: white;
   opacity: 0.9;
   font-family: 'Open Sans', sans-serif;
@@ -22,7 +22,7 @@ h1 {
 
 h2 {
   text-align: center;
-  font-size: 20pt;
+  font-size: 1.1em;
   color: white;
   opacity: 0.6;
   font-family: 'Open Sans', sans-serif;
@@ -90,14 +90,6 @@ a:active {
 @media (max-width: 768px) {
 
   body {
-    font-size: 13pt;
-  }
-
-  h1 {
-    font-size: 34pt;
-  }
-
-  h2 {
     font-size: 16pt;
   }
 
