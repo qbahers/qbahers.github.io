@@ -75,21 +75,23 @@ a:active {
 
   -webkit-animation-name: fadein;
   animation-name: fadein;
-  -webkit-animation-duration: 2500ms;
-  animation-duration: 2500ms;
+  -webkit-animation-duration: 3000ms;
+  animation-duration: 3000ms;
   -webkit-animation-timing-function: ease-in-out;
   animation-timing-function: ease-in-out;
-  -webkit-animation-delay: 200ms;
-  animation-delay: 200ms;
+  -webkit-animation-delay: 0ms;
+  animation-delay: 0ms;
 }
 
 @keyframes fadein {
   0%   { opacity: 0 }
+  33%  { opacity: 0 }
   100% { opacity: 1 }
 }
 
 @-webkit-keyframes fadein {
   0%   { opacity: 0 }
+  33%  { opacity: 0 }
   100% { opacity: 1 }
 }
 
