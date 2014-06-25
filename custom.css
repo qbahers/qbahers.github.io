@@ -73,26 +73,48 @@ a:active {
   margin-top: 55px;
   font-size: 0.9em;
 
-  -webkit-animation-name: fadein;
-  animation-name: fadein;
-  -webkit-animation-duration: 3000ms;
-  animation-duration: 3000ms;
-  -webkit-animation-timing-function: ease-in-out;
-  animation-timing-function: ease-in-out;
-  -webkit-animation-delay: 0ms;
-  animation-delay: 0ms;
+  -webkit-animation-name: fadein, glide;
+  animation-name: fadein, glide;
+  -webkit-animation-duration: 3s, 1s;
+  animation-duration: 3s, 1s;
+  -webkit-animation-timing-function: ease-in-out, ease-in-out;
+  animation-timing-function: ease-in-out, ease-in-out;
+  -webkit-animation-delay: 0s, 1s;
+  animation-delay: 0s, 1s;
 }
 
 @keyframes fadein {
   0%   { opacity: 0 }
-  33%  { opacity: 0 }
+  25%  { opacity: 0 }
   100% { opacity: 1 }
 }
 
 @-webkit-keyframes fadein {
   0%   { opacity: 0 }
-  33%  { opacity: 0 }
+  25%  { opacity: 0 }
   100% { opacity: 1 }
+}
+
+@keyframes glide {
+  0% { 
+    -webkit-transform: translateY(10px); 
+    transform: translateY(10px) 
+  }
+  100% { 
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px) 
+  }
+}
+
+@-webkit-keyframes glide {
+  0% { 
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px) 
+  }
+  100% { 
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px) 
+  }
 }
 
 .wrapper {
