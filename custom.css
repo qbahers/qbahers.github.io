@@ -79,19 +79,19 @@ a:active {
   animation-duration: 3s, 1s;
   -webkit-animation-timing-function: ease-in-out, ease-in-out;
   animation-timing-function: ease-in-out, ease-in-out;
-  -webkit-animation-delay: 0s, 1s;
-  animation-delay: 0s, 1s;
+  -webkit-animation-delay: 0s, 500ms;
+  animation-delay: 0s, 500ms;
 }
 
 @keyframes fadein {
   0%   { opacity: 0 }
-  25%  { opacity: 0 }
+  10%  { opacity: 0 }
   100% { opacity: 1 }
 }
 
 @-webkit-keyframes fadein {
   0%   { opacity: 0 }
-  25%  { opacity: 0 }
+  10%  { opacity: 0 }
   100% { opacity: 1 }
 }
 
