@@ -7,7 +7,7 @@ body {
   margin: 0;
   font-size: 18pt;
   background-color: #0000FF;
-  /*background: url("images/lake.jpg") no-repeat center center fixed;*/
+  /* background: url("images/lake.jpg") no-repeat center center fixed; */
   background: url("images/lake-alternative.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   background-size: cover;
@@ -43,8 +43,8 @@ h2 {
   opacity: 0.6;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  margin-top: 60px;
-  margin-bottom: 110px;
+  margin-top: 40px;
+  margin-bottom: 70px;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
