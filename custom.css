@@ -7,7 +7,7 @@ body {
   margin: 0;
   font-size: 18pt;
   background-color: #0000FF;
-  background: url("http://topwalls.net/wallpapers/2012/05/lake-boating-quiet-768x1366.jpg") no-repeat center center fixed;
+  background: url("lake.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   background-size: cover;
 }
