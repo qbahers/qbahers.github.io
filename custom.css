@@ -34,6 +34,8 @@ h1 {
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 h2 {
@@ -43,8 +45,8 @@ h2 {
   opacity: 0.6;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  margin-top: 40px;
-  margin-bottom: 70px;
+  margin-top: 20px;
+  margin-bottom: 60px;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
@@ -87,6 +89,7 @@ a:active {
 
 .links {
   margin-top: 40px;
+  margin-bottom: 120px;
   font-size: 0.9em;
 
   -webkit-animation-name: fadein, glide;
