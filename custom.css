@@ -100,6 +100,8 @@ a:active {
   animation-timing-function: ease-in-out, ease-in-out;
   -webkit-animation-delay: 0s, 500ms;
   animation-delay: 0s, 500ms;
+
+  -webkit-backface-visibility: hidden;
 }
 
 @keyframes fadein {
