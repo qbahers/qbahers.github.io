@@ -8,6 +8,8 @@ body {
   font-size: 17pt;
   background: url("images/lake-progressive.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 
@@ -19,6 +21,8 @@ body {
   top: 0;
   background: url("images/triangles.png") no-repeat center center fixed;
   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   opacity: 0.04;
 }
@@ -92,14 +96,22 @@ a:active {
 
   -webkit-animation-name: fadein, glide;
   animation-name: fadein, glide;
+
   -webkit-animation-duration: 3s, 1s;
+  -moz-animation-duration: 3s, 1s;
+  -o-animation-duration: 3s, 1s;
   animation-duration: 3s, 1s;
+
   -webkit-animation-timing-function: ease-in-out, ease-in-out;
   animation-timing-function: ease-in-out, ease-in-out;
+
   -webkit-animation-delay: 0s, 500ms;
+  -moz-animation-delay: 0s, 500ms;
+  -o-animation-delay: 0s, 500ms;
   animation-delay: 0s, 500ms;
 
   -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 @keyframes fadein {
@@ -117,10 +129,12 @@ a:active {
 @keyframes glide {
   0% { 
     -webkit-transform: translateY(10px); 
+    -ms-transform: translateY(10px); 
     transform: translateY(10px) 
   }
   100% { 
     -webkit-transform: translateY(0px);
+    -ms-transform: translateY(0px);
     transform: translateY(0px) 
   }
 }
@@ -128,10 +142,12 @@ a:active {
 @-webkit-keyframes glide {
   0% { 
     -webkit-transform: translateY(10px);
+    -ms-transform: translateY(10px);
     transform: translateY(10px) 
   }
   100% { 
     -webkit-transform: translateY(0px);
+    -ms-transform: translateY(0px);
     transform: translateY(0px) 
   }
 }
