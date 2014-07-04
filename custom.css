@@ -25,13 +25,15 @@ body {
   -o-background-size: cover;
   background-size: cover;
   opacity: 0.04;
+  filter: alpha(opacity=4); /* For IE8 and earlier */
 }
 
 h1 {
   text-align: center;
   font-size: 2.3em;
   color: white;
-  opacity: 0.95;
+  opacity: 0.92;
+  filter: alpha(opacity=92);
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
@@ -43,8 +45,10 @@ h1 {
 h2 {
   text-align: center;
   font-size: 1.2em;
+  line-height: 1.4;
   color: white;
   opacity: 0.6;
+  filter: alpha(opacity=60);
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   margin-top: 40px;
@@ -74,24 +78,28 @@ a:link {
   color: white;
   text-decoration: none;
   opacity: 0.5;
+  filter: alpha(opacity=50);
 }
 
 a:visited {
   color: white;
   text-decoration: none;
   opacity: 0.5;
+  filter: alpha(opacity=50);
 }
 
 a:hover {
   color: white;
   text-decoration: none;
   opacity: 1;
+  filter: alpha(opacity=100);
 }
 
 a:active {
   color: white;
   text-decoration: none;
   opacity: 1;
+  filter: alpha(opacity=100);
 }
 
 .links {
@@ -120,15 +128,33 @@ a:active {
 }
 
 @keyframes fadein {
-  0%   { opacity: 0 }
-  10%  { opacity: 0 }
-  100% { opacity: 1 }
+  0% { 
+    opacity: 0;
+    filter: alpha(opacity=0);
+  }
+  10% { 
+    opacity: 0;
+    filter: alpha(opacity=0);
+  }
+  100% {
+    opacity: 1; 
+    filter: alpha(opacity=100);
+  }
 }
 
 @-webkit-keyframes fadein {
-  0%   { opacity: 0 }
-  10%  { opacity: 0 }
-  100% { opacity: 1 }
+  0% { 
+    opacity: 0;
+    filter: alpha(opacity=0);
+  }
+  10% { 
+    opacity: 0;
+    filter: alpha(opacity=0);
+  }
+  100% {
+    opacity: 1; 
+    filter: alpha(opacity=100);
+  }
 }
 
 @keyframes glide {
