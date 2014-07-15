@@ -2,7 +2,7 @@
 
 My personal web page @ [qbahers.github.io] (http://qbahers.github.io).
 
-Created by Quentin Bahers.
+Made with :heart: by Quentin Bahers.
 
 ### Built with
 
